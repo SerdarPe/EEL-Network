@@ -25,10 +25,17 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-
+ 
+ 
+/**********************************************************************************************************
+   * AODV Protocol that is specified in RFC 3561 is taken as reference while implementing routing algorithm 
+   * Url: https://www.rfc-editor.org/info/rfc3561
+   * Title: Ad hoc On-Demand Distance Vector (AODV) Routing
+   * Author: Samir R. Das and Charles E. Perkins and Elizabeth M. Belding-Royer
+   * Date: 2003, July
+**********************************************************************************************************/
 #include "EEL_Routing.h"
 
-//These should've been defined in somewhere else...
 #define BROADCAST_ADDRESS (uint16_t)0xFFFF
 
 #ifndef max
