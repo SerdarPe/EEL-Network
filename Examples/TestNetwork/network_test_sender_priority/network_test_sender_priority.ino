@@ -85,7 +85,7 @@ void loop() {
     interval = millis();
     isSent = 0;
     if(retval_0 == 0x01 || retval_1 == 0x01 || retval_2 == 0x01){
-      PRINTLN("bruh");
+      PRINTLN("ERROR");
     }
     if(retval_0 == 0x00){PRINTLN("MSG_SENT: LOW")}
     if(retval_1 == 0x00){PRINTLN("MSG_SENT: MED")}

@@ -70,7 +70,7 @@ void loop() {
     interval = millis();
     isSent = 0;
 		if(retval == 0x01){
-		  PRINTLN("bruh")
+		  PRINTLN("ERROR")
 		}
 		else if(retval == 0x00){
 			PRINTLN("MSG_SENT")
