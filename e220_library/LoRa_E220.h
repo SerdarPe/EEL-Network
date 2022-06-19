@@ -1,8 +1,9 @@
 /*
  * EBYTE LoRa E220 Series
  *
- * AUTHOR:  Serdar Pehlivan
- * Modified to be used in EEL-Network
+ * AUTHOR: Renzo Mischianti
+ * MODIFIED BY: Serdar Pehlivan
+ * Some functions are modified to be used in EEL-Network implementation
  *
  * https://www.mischianti.org
  *
