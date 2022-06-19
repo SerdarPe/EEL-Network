@@ -20,7 +20,7 @@ Beware that it simply returns the port's buffer. So, don't <code>free()</code> i
 If no such route exists, a routing message will be sent instead of your datagram and corresponding error code will be returned by the method.<br>
 After you have successfully sent your datagram, you can clear it with <code>FreeDatagram(&d)</code>. Note that, it takes a <b>double pointer</b>.
 ### Optional Way
-You can also call <b>SendDatagramBuffer()</b>, this function will buffer the datagram and will be sent when <code>nd->run()</code> is called. (However this method is untested.)<br><br>
+You can also call <b>SendDatagramBuffer()</b>, this function will buffer the datagram and will be sent when <code>nd->run()</code> is called. (However this method is not tested.)<br><br>
 
 ### Priorities
 Currently there are 3 levels of priority. Namely,<br>
@@ -28,7 +28,6 @@ Currently there are 3 levels of priority. Namely,<br>
 2)<b>MEDIUM_PR</b> or <b>NORMAL</b>: Medium priority - 1<br>
 3)<b>HIGH_PR</b>: High priority - 2<br>
 Use them wth <b>ToS::</b> prefix for not making a confusion<br>
-<sub>yes, <b>REAL_TIME</b> exists, we had some special use case for this in our mind but couldn't implement it due to time constraints.</sub><br><br>
 
 ## Requesting a Route Beforehand
 There is also a function you can call before trying to send any data, namely <b>request_route()</b>.You can call it from an EEL_Driver object,<br><code>nd->request_route(dest_addr, REASON_NULL);</code><br><br>
@@ -39,4 +38,4 @@ You can check it with the method,<br>
 If the return value is not <b>ROUTE_ACTIVE</b>, you have to request the route again.<br><br>
 
 ## Running the Driver
-It's easy. Just make sure it runs (<code>nd->run()</code>) inside the <code>loop()</code> function. If you don't, network will not receive any messages, hence not be able to send any messages too!<br><br>
+It's easy: <code>nd->run()</code> starts the driver. Just make sure it runs (<code>nd->run()</code>) inside the <code>loop()</code> function. If you don't, network will not receive any messages, hence not be able to send any messages too!<br><br>
