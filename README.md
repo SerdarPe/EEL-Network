@@ -1,4 +1,4 @@
-# EEL-Network
+# <b>E</b>nd to <b>E</b>nd <b>L</b>ora Network
 --------------
 
 Source Code of "LoRa Paketnetz" Bachelor Thesis developed by Serdar Pehlivan and Arman Yavuz, as part of INF492 lecture of Turkish-German University.
