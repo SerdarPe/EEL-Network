@@ -38,4 +38,4 @@ You can check it with the method,<br>
 If the return value is not <b>ROUTE_ACTIVE</b>, you have to request the route again.<br><br>
 
 ## Running the Driver
-It's easy: <code>nd->run()</code> starts the driver. Just make sure it runs (<code>nd->run()</code>) inside the <code>loop()</code> function. If you don't, network will not receive any messages, hence not be able to send any messages too!<br><br>
+It's easy: just make sure it runs (<code>nd->run()</code>) inside the <code>loop()</code> function. If you don't, network will not receive any messages, hence not be able to send any messages too!<br><br>
