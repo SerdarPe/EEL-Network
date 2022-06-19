@@ -80,8 +80,8 @@ class EEL_Driver{
 		ROUTE_STATUS route_status(uint16_t address);
 		void request_route(uint16_t destination, REQUEST_REASON reason);
 
-		void add_blacklist(uint16_t address);
-		void remove_blacklist(uint16_t address);
+		//void add_blacklist(uint16_t address);
+		//void remove_blacklist(uint16_t address);
 		/*-------------------------------------------------------*/
 	private:
 		uint8_t _sfd;
