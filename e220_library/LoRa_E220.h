@@ -2,7 +2,7 @@
  * EBYTE LoRa E220 Series
  *
  * AUTHOR: Renzo Mischianti
- * MODIFIED BY: Serdar Pehlivan
+ * MODIFIED BY: Serdar Pehlivan and Arman Yavuz
  * Some functions are modified to be used in EEL-Network implementation
  *
  * https://www.mischianti.org
