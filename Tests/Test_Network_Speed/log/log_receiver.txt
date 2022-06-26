@@ -1,0 +1,1326 @@
+HELLO
+SS_CACHE: 100
+0x21E3
+0x458
+SET_PORT_RETURN_VALUE: 50
+BAN_ADDRESS_RETURN_VALUE: 0
+FRAME_HEX: 1A 3F 0 17 FF FF 0 1 7D D2 4 
+BYTES_READ: 1A
+PACKET_RECEIVED
+payload_length: 1A
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 655
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+FRAME_HEX: 1A 2F 0 17 FF FF 0 1 54 36 4 
+BYTES_READ: 1A
+PACKET_RECEIVED
+payload_length: 1A
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 1
+BUFFER_CODE: 0
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E F3 3 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 6AB
+PKT_TOS: MED
+BUFFERED_TO: 2
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 655
+SHIFTING 1 TO 0
+SHIFTING 2 TO 1
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+SHIFTING 1 TO 0
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREQ
+ROUTE_TABLE_ADD
+DestAddr: 2F
+NextHopAddr: 2F
+NextHopChan: 17
+Flags: 5
+ROUTE_TABLE_ADD
+DestAddr: 3F
+NextHopAddr: 2F
+NextHopChan: 17
+Flags: 0
+GENERATE_RREP_FOR: 3F, NEXT_HOP: 2F
+SEND_PACKET(ADDR,CH)
+DELAY_SEND: 11
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 6AB
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 33 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 33 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 33 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+recr_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 33 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 6A7
+PKT_TOS: MED
+BUFFERED_TO: 1
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+SHIFTING 1 TO 0
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 6A7
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 33 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 6AF
+PKT_TOS: MED
+BUFFERED_TO: 1
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+SHIFTING 1 TO 0
+LINK_RESPONSE: 2
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 6AF
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 33 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 2D 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 33 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1A 3F 0 17 FF FF 0 1 7D CB 4 
+BYTES_READ: 1A
+PACKET_RECEIVED
+payload_length: 1A
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 29 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 29 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 29 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 6AF
+PKT_TOS: MED
+BUFFERED_TO: 1
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+SHIFTING 1 TO 0
+LINK_RESPONSE: 2
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 6AF
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 29 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 29 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 3F 0 17 FF FF 0 1 27 CF 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 23 4 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 29 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM: 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1A 3F 0 17 FF FF 0 1 7D CB 4 
+BYTES_READ: 1A
+PACKET_RECEIVED
+payload_length: 1A
+sender_address: 3F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+MAC_BLOCKED: 3F
+LINK_RESPONSE: 1
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 ED 3 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+FRAME_HEX: 16 2F 0 17 FF FF 0 1 E 1C 4 
+BYTES_READ: 16
+PACKET_RECEIVED
+payload_length: 16
+sender_address: 2F
+sender_channel: 17
+receiver_address: FFFF
+receiver_channel: 0
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+AODV_RESPONSE: HANDLE_RREP
+HELLO_FROM 2F
+HANDLE_RREP_MSG==NULL
+HELLO_TIME
+SEND_PACKET(ADDR,CH)
+FRAME_HEX: 1E 2F 0 17 1F 0 17 1 71 ED 3 
+BYTES_READ: 1E
+PACKET_RECEIVED
+payload_length: 1E
+sender_address: 2F
+sender_channel: 17
+receiver_address: 1F
+receiver_channel: 17
+PKT: 680
+PKT_TOS: MED
+BUFFERED_TO: 0
+BUFFER_CODE: 0
+REMOVING_PKTBUF
+CURRENT_INDEX: 0
+PKT: 680
+LINK_RESPONSE: 2
+msg:Lorem ipsum.
+time spent receiving(ms): 1687
+total bytes received: 2992
+bps: 1773.56
+time spent processing routing(ms): 48.98
+total routing messages: 16
+average processing time(ms): 3.06
+time spent processing udp(ms): 1.66
+total udp messages: 39
+average processing time(ms): 0.04
+time spent forwarding(ms): 0.00
+total forwarded messages: 0
+average processing time(ms): inf
+time spent processing packets(ms): 67.44
+total processed messages: 72
+average processing time(ms): 0.94
